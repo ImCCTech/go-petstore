@@ -7,13 +7,13 @@ This is an API client for Petstore.
 Installation can be done with a normal `go get`:
 
 ```bash
-go get -u github.com/TyunTech/go-petstore
+go get -u github.com/ImCCTech/go-petstore
 ```
 
 ## Usage
 
 ```go
-import sdk "github.com/TyunTech/go-petstore"
+import sdk "github.com/ImCCTech/go-petstore"
 ```
 
 Construct a new Petstore client, then use the various endpoints on the client to
@@ -47,7 +47,7 @@ package main
 import (
 	"log"
 
-	sdk "github.com/TyunTech/go-petstore"
+	sdk "github.com/ImCCTech/go-petstore"
 )
 
 func main() {
